@@ -1,0 +1,32 @@
+.ico-repeat {
+  &::before, 
+  &::after, 
+  z {
+    width: 3px;
+    height: 3px; 
+    border-top: 3px solid #777; 
+    border-bottom: 3px solid #777;
+    left: 0px;
+    top: 0px;
+  }
+
+  &::after { 
+    left: 5px;
+  }
+  z{
+    left: 10px;
+  }
+  z::before, z::after {
+    width: 2px;
+    height: 3px;
+    border-left: 3px solid #777; 
+    border-right: 3px solid #777;
+    left: -10px;
+    top: 9px;
+  }
+
+  z::after{
+    left: 0px;
+    border-right: none;
+  }
+}

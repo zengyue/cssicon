@@ -1,0 +1,34 @@
+.ico-list{
+  &::before{
+    width: 2px;
+    height: 8px; 
+    border-top: 2px solid #777; 
+    border-bottom: 2px solid #777;
+    left: 2px;
+    top: 5px;
+  }
+
+  &::after { 
+    width: 2px; 
+    border-top: 2px solid #777;
+    left: 2px;
+    top: 10px;
+  }
+
+  z, z::before, z::after { 
+    width: 11px; 
+    border-top: 1px solid #777; 
+  }
+
+  z{
+    left: 6px; 
+    top: 6px;
+  }
+
+  z::before{
+    top: 4px;
+  }
+  z::after{
+    top: 9px;
+  }
+}

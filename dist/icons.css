@@ -1,0 +1,363 @@
+.ico {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.ico::before,
+.ico::after,
+.ico > z,
+.ico > z::before,
+.ico > z::after {
+  content: '';
+  position: absolute;
+}
+.ico-list::before {
+  width: 2px;
+  height: 8px;
+  border-top: 2px solid #777;
+  border-bottom: 2px solid #777;
+  left: 2px;
+  top: 5px;
+}
+.ico-list::after {
+  width: 2px;
+  border-top: 2px solid #777;
+  left: 2px;
+  top: 10px;
+}
+.ico-list z,
+.ico-list z::before,
+.ico-list z::after {
+  width: 11px;
+  border-top: 1px solid #777;
+}
+.ico-list z {
+  left: 6px;
+  top: 6px;
+}
+.ico-list z::before {
+  top: 4px;
+}
+.ico-list z::after {
+  top: 9px;
+}
+.ico-repeat::before,
+.ico-repeat::after,
+.ico-repeat z {
+  width: 3px;
+  height: 3px;
+  border-top: 3px solid #777;
+  border-bottom: 3px solid #777;
+  left: 0px;
+  top: 0px;
+}
+.ico-repeat::after {
+  left: 5px;
+}
+.ico-repeat z {
+  left: 10px;
+}
+.ico-repeat z::before,
+.ico-repeat z::after {
+  width: 2px;
+  height: 3px;
+  border-left: 3px solid #777;
+  border-right: 3px solid #777;
+  left: -10px;
+  top: 9px;
+}
+.ico-repeat z::after {
+  left: 0px;
+  border-right: none;
+}
+.ico-open::before {
+  width: 5px;
+  height: 10px;
+  border-top: 1px solid #777;
+  border-left: 1px solid #777;
+}
+.ico-open::after {
+  width: 7px;
+  height: 1px;
+  border-top: 1px solid #777;
+  border-right: 1px solid #777;
+  left: 5px;
+  top: 1px;
+}
+.ico-open z {
+  width: 12px;
+  height: 8px;
+  border: 1px solid #777;
+  left: 2px;
+  top: 3px;
+}
+.ico-copy::before,
+.ico-copy::after {
+  width: 9px;
+  height: 11px;
+}
+.ico-copy::before {
+  top: 4px;
+  left: 7px;
+  border-top: 1px solid #777;
+  border-right: 1px solid #777;
+}
+.ico-copy::after {
+  top: 7px;
+  left: 3px;
+  border: 1px solid #777;
+}
+.ico-copy z::before {
+  width: 1px;
+  height: 0;
+  border-top: 3px solid #777;
+  top: 4px;
+  left: 6px;
+}
+.ico-copy z::after {
+  width: 0;
+  height: 1px;
+  border-right: 3px solid #777;
+  top: 16px;
+  left: 14px;
+}
+.ico-info::before {
+  width: 14px;
+  height: 14px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  left: 3px;
+  top: 5px;
+}
+.ico-info::after {
+  width: 2px;
+  height: 1px;
+  border-top: 2px solid #878787;
+  border-bottom: 5px solid #878787;
+  left: 10px;
+  top: 9px;
+}
+.ico-close::before {
+  width: 14px;
+  height: 14px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  left: 3px;
+  top: 5px;
+}
+.ico-close z::before {
+  width: 8px;
+  height: 0px;
+  border-radius: 1px;
+  border-top: 2px solid #777;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: 7px;
+  top: 12px;
+}
+.ico-close z::after {
+  width: 8px;
+  height: 0px;
+  border-radius: 1px;
+  border-top: 2px solid #777;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  left: 7px;
+  top: 12px;
+}
+.ico-download::before {
+  width: 5px;
+  height: 1px;
+  border-left: 5px solid #777;
+  border-right: 5px solid #777;
+  left: 0px;
+  top: 5px;
+}
+.ico-download::after {
+  width: 13px;
+  height: 10px;
+  border-style: solid;
+  border-color: #777;
+  border-width: 0px 1px 1px 1px;
+  left: 0px;
+  top: 5px;
+}
+.ico-download z::before {
+  width: 0px;
+  height: 8px;
+  border-left: 1px solid #777;
+  left: 7px;
+  top: 2px;
+}
+.ico-download z::after {
+  width: 1px;
+  height: 0px;
+  border-style: solid;
+  border-color: #777 transparent transparent transparent;
+  border-width: 3px;
+  left: 4px;
+  top: 9px;
+}
+.ico-share::before,
+.ico-share::after {
+  border-top: 1px solid #6d6d6d;
+  left: 7px;
+}
+.ico-share::before {
+  width: 6px;
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+  top: 15px;
+}
+.ico-share::after {
+  width: 7px;
+  -webkit-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+  top: 8px;
+}
+.ico-share z,
+.ico-share z::before,
+.ico-share z::after {
+  border: 1px solid #5d5d5d;
+  border-radius: 4px;
+}
+.ico-share z {
+  width: 4px;
+  height: 4px;
+  left: 2px;
+  top: 9px;
+}
+.ico-share z::before,
+.ico-share z::after {
+  width: 3px;
+  height: 3px;
+}
+.ico-share z::before {
+  top: -6px;
+  left: 10px;
+}
+.ico-share z::after {
+  top: 5px;
+  left: 9px;
+}
+.ico-comment::before {
+  width: 15px;
+  height: 10px;
+  border-style: solid;
+  border-color: #777;
+  border-width: 1px 1px 0px 1px;
+  border-radius: 2px 2px 0 0;
+}
+.ico-comment::after {
+  width: 3px;
+  height: 1px;
+  border-left: 8px solid #777;
+  border-right: 6px solid #777;
+  left: 0px;
+  top: 10px;
+}
+.ico-comment z::after {
+  width: 3px;
+  height: 3px;
+  border-right: 1px solid #777;
+  border-bottom: 1px solid #777;
+  border-bottom-right-radius: 1px;
+  -webkit-transform: skewY(45deg);
+  -ms-transform: skewY(45deg);
+  transform: skewY(45deg);
+  left: 8px;
+  top: 9px;
+}
+.ico-send::before {
+  width: 12px;
+  height: 8px;
+  border: solid #777;
+  border-width: 0 1px 1px;
+  left: 2px;
+  top: 5px;
+}
+.ico-send::after {
+  width: 4px;
+  height: 1px;
+  border-left: 6px solid #777;
+  border-right: 4px solid #777;
+  left: 2px;
+  top: 5px;
+}
+.ico-send z::before {
+  width: 5px;
+  height: 8px;
+  border: solid #777;
+  border-width: 1px 0 0 1px;
+  border-top-left-radius: 5px 8px;
+  left: 9px;
+  top: 1px;
+}
+.ico-send z::after {
+  width: 3px;
+  height: 3px;
+  border: solid #777;
+  border-width: 1px 1px 0 0;
+  left: 11px;
+  top: 0px;
+}
+.ico-cordown::before {
+  width: 0px;
+  height: 4px;
+  border-left: 1px solid #777;
+  box-shadow: -1px 1px #777777, -2px 2px #777777, -3px 3px #777777, -4px 4px #777777, -5px 5px #777777, 1px 1px #777777, 2px 2px #777777, 3px 3px #777777, 4px 4px #777777, 5px 5px #777777;
+  left: 6px;
+  top: 6px;
+}
+.ico-cordown2::before {
+  width: 6px;
+  height: 6px;
+  border-style: solid;
+  border-color: #777 transparent transparent #777;
+  border-width: 3px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: 5px;
+  top: 5px;
+}
+.ico-delete::before {
+  width: 3px;
+  height: 2px;
+  border: solid #777;
+  border-width: 1px 1px 0px 1px;
+  left: 6px;
+}
+.ico-delete::after {
+  width: 17px;
+  height: 0px;
+  border-top: 1px solid #777;
+  top: 2px;
+}
+.ico-delete z::before {
+  width: 11px;
+  height: 15px;
+  border: solid #777;
+  border-width: 0px 1px 1px 1px;
+  border-radius: 0 0 2px 2px;
+  left: 2px;
+  top: 3px;
+}
+.ico-delete z::after {
+  padding: 0 2px;
+  width: 1px;
+  height: 9px;
+  border: solid #777;
+  border-width: 0px 1px 0px 1px;
+  background-color: #777;
+  -webkit-background-clip: content;
+  -moz-background-clip: content;
+  background-clip: content;
+  left: 5px;
+  top: 6px;
+}
