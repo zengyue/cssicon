@@ -2,28 +2,73 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <!--允许全屏-->
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="yes" name="apple-touch-fullscreen"/>
+  <!--禁止电话号码和邮箱自动识别-->
+  <meta content="telephone=no,email=no" name="format-detection"/>
+  <!--苹果-顶部状态栏样式-->
+  <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+  <!--标准 缩放比例等显示尺寸设置-->
+  <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport"/>
+
   <title>css icon test</title>
   <link rel="stylesheet" href="dist/icons.css">
 </head>
 <body>
-  <div><i class="ico ico-list"><z></i></div>
-  <div><i class="ico ico-repeat"><z></i></div>
+  <style type="text/css">
+    .icon-item{
+      margin: .5em;
+    }
+  </style>
+  <div class="icon-item">
+    <i class="ico ico-list"><z></i> 列表
+    </div>
+  <div class="icon-item">
+    <i class="ico ico-repeat"><z></i> 小图
+    </div>
 
-  <div><i class="ico ico-open"><z></i></div>
-  <div><i class="ico ico-copy"><z></i></div>
+  <div class="icon-item">
+    <i class="ico ico-open"><z></i> 打开
+    </div>
+  <div class="icon-item">
+    <i class="ico ico-copy"><z></i> 复制
+    </div>
 
-  <div><i class="ico ico-info"><z></i></div>
-  <div><i class="ico ico-close"><z></i></div>
+  <div class="icon-item">
+    <i class="ico ico-info"><z></i> 信息
+    </div>
+  <div class="icon-item">
+    <i class="ico ico-close"><z></i> 关闭
+    </div>
 
-  <div><i class="ico ico-download"><z></i></div>
+  <div class="icon-item">
+    <i class="ico ico-download"><z></i> 下载
+    </div>
 
-  <div><i class="ico ico-share"><z></i></div>
-  <div><i class="ico ico-comment"><z></i></div>
-  <div><i class="ico ico-send"><z></i></div>
+  <div class="icon-item">
+    <i class="ico ico-share"><z></i> 分享
+    </div>
+  <div class="icon-item">
+    <i class="ico ico-comment"><z></i> 评论
+    </div>
+  <div class="icon-item">
+    <i class="ico ico-send"><z></i> 发送
+    </div>
 
-  <div><i class="ico ico-cordown"><z></i></div>
-  <div><i class="ico ico-cordown2"><z></i></div>
+  <div class="icon-item">
+    <i class="ico ico-cordown"><z></i> 箭头
+    </div>
+  <div class="icon-item">
+    <i class="ico ico-cordown2"><z></i> 箭头
+    </div>
 
-  <div><i class="ico ico-delete"><z></i></div>
+  <div class="icon-item">
+    <i class="ico ico-delete"><z></i> 删除
+    </div>
+
+  <div class="icon-item">
+    <i class="ico ico-loading"><z></i> 加载
+    </div>
 </body>
 </html>
