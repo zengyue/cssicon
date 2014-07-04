@@ -549,3 +549,35 @@
   left: 0px;
   top: 0px;
 }
+.ico-speak::before {
+  width: 2px;
+  height: 7px;
+  border: 2px solid #777;
+  border-radius: 4px;
+  left: 6px;
+  top: 3px;
+}
+.ico-speak::after {
+  width: 10px;
+  height: 10px;
+  border: 2px solid;
+  border-top-color: transparent !important;
+  border-right-color: transparent !important;
+  border-bottom-color: #777;
+  border-left-color: #777;
+  border-radius: 50%;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  left: 2px;
+  top: 4px;
+}
+.ico-speak z {
+  width: 0px;
+  height: 3px;
+  border-left: 2px solid #777;
+  left: 8px;
+  top: 18px;
+}
