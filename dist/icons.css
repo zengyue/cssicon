@@ -72,6 +72,68 @@
   left: 0px;
   border-right: none;
 }
+.ico-zoomin::before {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #777;
+  border-radius: 50%;
+  left: 9px;
+  top: 2px;
+}
+.ico-zoomin::after {
+  width: 8px;
+  height: 0px;
+  border-top: 2px solid #777;
+  border-radius: 1px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  left: 4px;
+  top: 14px;
+}
+.ico-zoomin z::before {
+  width: 6px;
+  height: 0px;
+  border-top: 2px solid #777;
+  border-radius: 1px;
+  left: 12px;
+  top: 7px;
+}
+.ico-zoomin z::after {
+  width: 0px;
+  height: 6px;
+  border-left: 2px solid #777;
+  border-radius: 1px;
+  left: 14px;
+  top: 5px;
+}
+.ico-zoomout::before {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #777;
+  border-radius: 50%;
+  left: 9px;
+  top: 2px;
+}
+.ico-zoomout::after {
+  width: 8px;
+  height: 0px;
+  border-top: 2px solid #777;
+  border-radius: 1px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  left: 4px;
+  top: 14px;
+}
+.ico-zoomout z::before {
+  width: 6px;
+  height: 0px;
+  border-top: 2px solid #777;
+  border-radius: 1px;
+  left: 12px;
+  top: 7px;
+}
 .ico-open::before {
   width: 5px;
   height: 10px;
@@ -229,7 +291,10 @@
   width: 1px;
   height: 0px;
   border-style: solid;
-  border-color: #777 transparent transparent transparent;
+  border-top-color: #777;
+  border-right-color: transparent !important;
+  border-bottom-color: transparent !important;
+  border-left-color: transparent !important;
   border-width: 3px;
   left: 8px;
   top: 10px;
@@ -262,7 +327,10 @@
   width: 1px;
   height: 0px;
   border-style: solid;
-  border-color: transparent transparent #777 transparent;
+  border-top-color: transparent !important;
+  border-right-color: transparent !important;
+  border-bottom-color: #777;
+  border-left-color: transparent !important;
   border-width: 3px;
   left: 8px;
   top: -2px;

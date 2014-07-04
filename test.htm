@@ -23,6 +23,16 @@
     .ico{
       /*-webkit-transform: scale(2);*/
     }
+
+    /* hover时颜色高亮 */
+    .icon-item:hover{
+      cursor: pointer;
+      color: #4D77C6;
+    }
+    .icon-item:hover .ico::before, .icon-item:hover .ico::after, 
+    .icon-item:hover .ico z, .icon-item:hover .ico z::before, .icon-item:hover .ico z::after{ 
+      border-color: #4D77C6; 
+    }
   </style>
   <div class="icon-list">
     <div class="icon-item">
@@ -30,6 +40,13 @@
     </div>
     <div class="icon-item">
       <i class="ico ico-repeat"><z></i> 小图
+    </div>
+
+    <div class="icon-item">
+      <i class="ico ico-zoomin"><z></i> 放大
+    </div>
+    <div class="icon-item">
+      <i class="ico ico-zoomout"><z></i> 缩小
     </div>
 
     <div class="icon-item">
