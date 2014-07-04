@@ -536,3 +536,16 @@
   -moz-animation: 0.85s loading-rotate steps(8) infinite;
   animation: 0.85s loading-rotate steps(8) infinite;
 }
+.ico-android::before {
+  width: 4px;
+  height: 4px;
+  border-left: 1px solid #777;
+  border-bottom: 1px solid #777;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  left: 0px;
+  top: 0px;
+}

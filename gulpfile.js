@@ -20,7 +20,7 @@ gulp.task('watch', function(){
 
 gulp.task('less', function(){
   return gulp.src([
-    'src/*.less'
+    'src/icons.less'
   ])
   .pipe(less())
   .pipe(gulp.dest('dist/'));
